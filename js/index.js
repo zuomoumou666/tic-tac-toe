@@ -84,7 +84,6 @@ $(document).ready(function () {
       const record = {
         count: 1,
         flag: true,
-        isOblique: (Math.abs(direction[0][0]) + Math.abs(direction[0][1]) === 2),
       };
       const getLeft = move(row, col, direction[0], record);
       const getRight = move(row, col, direction[1], record);
